@@ -1,0 +1,204 @@
+/*Inserta tu css aqui*/
+* {
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+#container {
+	background-image: url(../image/Whatsapp.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width:100%;
+    height:100vh;
+}
+
+header {
+	width:100%;
+	height:140px;
+	background: #009688;
+	display:fixed;
+	position: relative;
+}
+
+#main {
+	width:80%;
+	height: 80px;
+	background: #eeeeee;
+	position: absolute;
+	top: 10%;
+	left:10%;
+	right:10%;;
+
+}
+
+.encabezado-r {
+	width:30%;
+	height:80px;
+	border-right: 1px solid grey;
+	float:left;
+}
+
+.encabezado-l {
+	width:70%;
+	height:80px;
+	float:right;
+}
+
+.tls {
+	width: 60px;
+	height:60px;
+	border-radius: 50%;
+	margin-left:15px;
+	margin-right: 15px;
+	margin-top:10px;
+	margin-bottom:10px;
+	clear:both;
+	float: left;
+}
+
+.icons {
+	float:right;
+	margin-right:5px;
+	margin-top:40px;
+}
+
+
+i:first-child {
+	margin-right: 10px;
+	
+}
+
+.names {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.friends {
+	margin-top: 25px;
+	clear:both;
+	width: 100%;
+	height: 800px;
+	background: #fff;
+	padding-top: 10px;
+}
+
+.budys {
+	overflow: auto;
+	height: 700px;
+}
+
+.searching {
+	clear: both;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding:5px;
+	margin-bottom: 5px;
+}
+
+.icon-search {
+	color:#e1e1e1;
+	margin-left: 10px;
+}
+
+.box {
+	border:none	;
+}
+
+.individuals {
+	border:1px solid #e1e1e1;
+	padding:5px;
+	height:100px;
+}
+
+span {
+	text-align: right;
+}
+
+table {
+	text-decoration: none;
+	color:#e1e1e1;
+}
+
+
+.mainnames {
+	padding-top: 20px;
+	float:left;
+}
+
+.messages {
+	clear:both;
+}
+
+.conversations {
+	border:1px solid #e1e1e1;
+	background: #fff;
+	border-radius: 5px;
+	padding:10px;
+	width: 400px;
+	height:100px;
+	margin-left: 20px;
+}
+
+.conversations table {
+	color: #000;
+}
+
+.conversations:first-child {
+	margin-top: 100px;
+}
+
+.spok {
+	width:40%;
+	float:right;
+}
+
+.spoken {
+	border:1px solid #e1e1e1;
+	background: #dcf8c6;
+	border-radius: 5px;
+	padding:5px;
+	width: 400px;
+	height:60px;
+	margin-left: 20px;
+	float: right;
+}
+
+.conversations-bellow {
+	border:1px solid #e1e1e1;
+	background: #fff;
+	border-radius: 5px;
+	padding:10px;
+	width: 400px;
+	height:100px;
+	margin-left: 20px;
+	clear:both;
+}
+
+.conversations-bellow table {
+	color: #000;
+}
+
+.messages {
+	overflow: auto;
+	height: 700px;
+}
+
+.chater {
+	margin-top:10px;
+}
+
+.chatering {
+	background: #f2f0ee;
+	padding:10px;
+}
+
+.box-l {
+	width:95%;
+	border:none;
+	border-radius:7px;
+}
